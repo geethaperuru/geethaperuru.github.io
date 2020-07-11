@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <!-- standard Character encoding -->
+        <meta charset="UTF-8">
+
+        <!--viewport - users visible area of web page , Maintains the size adjustable to the tab or screen size ,
+            fits according to the page using the width as per ther device-width,
+            setting the initial zoom level on the loading of page intially-->
+        <meta name="viewport" content="width = device-width,initial-scale=1.0">
+        
+        <title>Geethanjali Peruru</title>
+
+        <!--To normalize the differences between multiple browsers and make the page look same in all the browsers-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        
+        <!--TO have the social icons and stylish fonts-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!--Importing the google fonts api-->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+        rel="stylesheet"> -->
+
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+
+        <!--External CSS File-->
+        <link rel="stylesheet" href="css/style.css">
+    
+    </head>
+    
+    <body>
+        <div class="heading" >
+            <p>My Projects</p>
+        </div>
+        <header>
+
+            <!--Toggle bar for menu with navigation using hamburger-->
+            <button class="nav-toggle"aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+
+            <!--Tabs inside hamberger, by default hidden-->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#works" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="index.html#project" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="index.html#connect" class="nav__link">Contact Me</a></li>                    
+                </ul>
+            </nav>
+        </header>
+        
+        <!--Introduction-->
+        <!--Home page with basic details of name and photograph-->
+
+        <section class="intro" id="home">
+            
+            <h1 class="section__title section__title--intro">
+                <strong> Shoppe All  </strong>
+            </h1>
+            
+            <p class="section__subtitle section__subtitle--intro">Shopping webiste</p>
+            
+            <img src="img/img1.jpg" id = "shoppe" style="height: 250px;" alt="pic" class="intro__img">
+        
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                A website for searching the products like an e-commerce website to but the products.
+                Adding the required products to the cart based on the availability and getting the bill to the mail as a receipt.
+            </p>
+        </div>
+
+
+        <section class="intro" id="home">
+            
+            <h1 class="section__title section__title--intro">
+                <strong> Skill Tracker </strong>
+            </h1>
+            
+            <p class="section__subtitle section__subtitle--intro">A skill search</p>
+            
+            <img src="img/Rectangle 3.png" id = "skilltracker" style="height: 250px;" alt="pic" class="intro__img">
+        
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                It is website used for searching the person based on the requirements and availability.
+                The main searching is based on the skills required and getting the results of the users that are available with these skills.
+                Searching can also be done based on the details of the users such as name,email.
+            </p>
+        </div>
+
+        <section class="intro" id="home">
+            
+            <h1 class="section__title section__title--intro">
+                <strong>An ATM System</strong>
+            </h1>
+            
+            <p class="section__subtitle section__subtitle--intro">A Finger print ATM</p>
+            
+            <img src="img/img4.png"id = "atm" style="height: 250px;" alt="pic" class="intro__img">
+        
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>
+                The working of the ATM has been simulated with all its functionalities of regular ones.
+                To improve the authentication of the it, have added another layer of authentication using the fingerprints.
+            </p>
+        </div>
+
+        <section class="intro" id="home">
+            
+            <h1 class="section__title section__title--intro">
+                <strong>Tic Tac Toe</strong>
+            </h1>
+            
+            <p class="section__subtitle section__subtitle--intro">Fun Game</p>
+            
+            <img src="img/tictac.jpg" id = "tictactoe" style="height: 250px;" alt="pic" class="intro__img">
+        
+        </section>
+
+        <div class="portfolio-item-individual" > 
+            <p>
+                Tic-Tac-Toe or Xs-Os is a simple game in a 3x3 grid with rules. 
+                It is a fun game to be played by two users with mutual turns one after other until some one wins or whole grid gets filled.
+                It has been implemented for two local players to play.
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+        
+        <!--Footer-->
+        <!--Contains all the social address links for connection-->
+
+        <footer class="footer" id="connect">
+            
+            <p class="contact">Contact Me</p>
+
+            <!--Mailing option-->
+            
+            <a href="mailto:perurugeetha98@gmail.com" class="footer__link">perurugeetha98@gmail.com</a>
+            
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/geethanjali-p-027057118/"> 
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/geethaperuru">
+                        <i class="fab fa-github">   
+                        </i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.hackerrank.com/perurugeetha98"> 
+                        <i class="fab fa-hackerrank"></i>
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.interviewbit.com/profile/geethaperuru">
+                        <img src="img/ib icon.png" style="width: 50px;height: 50px;">
+                    </a>
+                </li>
+                
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://leetcode.com/geethaperuru">
+                        <img src="img/lc.png" style="width: 30px;height: 30px;">
+                    </a>
+                </li>
+            </ul>
+        
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
